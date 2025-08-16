@@ -1,0 +1,10 @@
+# API Key Instructions
+
+This project uses Google Maps SDK (GCP).
+To run locally:
+
+1. Go to Google Cloud Console → APIs & Services → Credentials.
+2. Create a new API Key and enable Maps SDK + Geocoding API.
+3. In your Android project, open local.properties and add:
+   MAPS_API_KEY=your_api_key_here
+4. Replace "YOUR_API_KEY_HERE" in AndroidManifest.xml if not using Gradle placeholders.
